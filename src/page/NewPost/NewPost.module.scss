@@ -1,0 +1,33 @@
+.btnSubmit {
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	button {
+		display: inline-block;
+		text-align: center;
+		border: 0;
+		background-color: rgb(255, 81, 0);
+		color: #fff;
+		font-size: 18px;
+		border-radius: 4rem;
+		padding: 4px 16px;
+		width: auto;
+		outline: none;
+		opacity: 0.7;
+
+		&:hover {
+			cursor: no-drop;
+		}
+	}
+}
+
+.btnSubmit.active {
+	button {
+		opacity: 1;
+		&:hover {
+			opacity: 0.8;
+			cursor: pointer;
+		}
+	}
+}
